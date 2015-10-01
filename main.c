@@ -11,6 +11,7 @@ int main(int argc, char ** argv){
 	int customerCount;
 	int mu;
 	int lambda;
+	struct Customer pQ[100]; //array of 100 customers for priority Q
 
 	FILE * input;
 	input = fopen("runSimulation.txt","r");

@@ -26,6 +26,10 @@ int main(int argc, char ** argv){
 
 	fprintf(stdout,"%d %d %d %d \n",lambda, mu, serviceLineCount, customerCount);
 
+	
+
+
+
 	return 0;
 }
 
